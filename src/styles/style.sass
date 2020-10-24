@@ -9,60 +9,61 @@
 
 html
     scroll-behavior: smooth
-    +fs(16px)
 
 body
-    font-family: 'Nunito', sans-serif
-    line-height: 22px
-    letter-spacing: 0.105em
+    font-family: 'Lato', sans-serif
     font-weight: 300
-    background-color: $main-bg
-    color: $main-text
-
-h1, h2, h3, h4
-    font-weight: 400
-    color: $header-text
 
 h1
-    +fs(220px)
-    line-height: 0.90em
-    letter-spacing: 0.04em
-    text-transform: uppercase
-    color: $main-bg
-
-    +screen-down(lg)
-        +fs(180px)
-
-    +screen-down(md)
-        +fs(140px)
-
-    +screen-down(sm)
-        +fs(90px)
+    font-family: 'Montserrat', sans-serif
+    font-size: 64px
+    font-weight: bold
+    color: white
+    margin-bottom: 21px
 
 h2
-    +fs(60px)
-    font-weight: 300
-    line-height: 62px
-    letter-spacing: 0.085em
-    text-transform: uppercase
-    color: $main-bg
-
-    +screen-down(lg)
-        +fs(50px)
-
-    +screen-down(md)
-        +fs(40px)
-
-    +screen-down(sm)
-        +fs(25px)
+    font-family: 'Montserrat', sans-serif
+    font-weight: bold
+    font-size: 48px
+    color: darkgrey
 
 h3
-    +fs(36px)
-    font-weight: 500
-    line-height: 44px
-    color: $header-text
+    font-size: 24px
+    color: white
+    font-weight: bold
 
-h4
-    +fs(18px)
-    line-height: 22px
+p
+    font-size: 37px
+    color: black
+
+span
+    font-style: bold italic
+
+.main
+    background: url('../img/bg.png') center center / cover
+    padding: 35px 0 86px 0
+    height: 100vh
+
+.main-contents
+    &__desc
+        margin-bottom: 80px
+
+.logo
+    margin-bottom: 160px
+
+.buttons
+    margin-bottom: 121px
+
+.cta-button
+    background: #FF5151
+    padding: 18px 56px
+    border-radius: 10px
+    margin-right: 64px
+
+.cta-ghost
+    padding: 18px 45px
+    border: 2px solid white
+    border-radius: 10px
+
+
 
